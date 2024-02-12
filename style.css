@@ -2,3 +2,45 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
+/* Core CSS END */
+.main-section {
+    max-width: 1250px;
+    margin: auto;
+    overflow: hidden;
+}
+.main-section  header {
+    width: 22%;
+    max-width: 275px;
+    float: left;
+    padding-right: 8px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.main-section main {
+    width: 78%;
+    float: left;
+}
+main .main-content {
+    max-width: 600px;
+    width: 61%;
+    float: left;
+    border: 1px solid #eff3f4;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+main .main-sidebar {
+    width: 39%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+/* Left Menu */
+ul.menu-lists li svg {
+    width: 28px;
+}
+.logo-x a svg {
+    width: 28px;
+}
